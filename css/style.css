@@ -155,6 +155,10 @@ a{
     margin: 20px 0 30px;
 }
 
+.bttn_footer{
+    background-color: #7289DA;
+}
+
 .header_top{
     height: 70px;
     display: flex;
@@ -253,7 +257,6 @@ section .section_desc{
 
 .footer_top{
     height: 500px;
-    border-bottom: white 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,7 +288,6 @@ section .section_desc{
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .footer_bottom .container_div_footer{
@@ -296,9 +298,6 @@ section .section_desc{
     align-items: center;
 }
 
-.logo_footer{
-    padding: 10px 20px;
-}
 
 i {
     color: white;
@@ -331,4 +330,9 @@ i {
 
 .ul_container li:first-child a{
     color: #7289DA;
+}
+
+hr{
+    border: 1px solid #7289DA;
+    width: 70%;
 }
