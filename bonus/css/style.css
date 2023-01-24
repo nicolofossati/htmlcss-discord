@@ -13,81 +13,6 @@ footer{
 }
 
 
-/*      DEBUG settings      */
-
-.debug .header_top{
-    
-}
-
-.debug .header_bottom{
-    background-color: #00008B;
-}
-
-
-.debug .navigation_links{
-    background-color: #DAA520;
-}
-
-.debug .header_top div{
-    background-color: #DAA520;
-    width: 15%;
-}
-
-.debug .header-info{
-    background-color: #EE82EE;
-}
-
-.dotted{
-    border: dotted 2px black;
-}
-
-.debug .section_img{
-    background: #1E90FF;
-}
-
-.debug .reverse_section{
-    background-color: #D3D3D3;
-}
-
-
-.debug .section_desc{
-    background-color: #EEB5FC;
-}
-
-.debug .last_section{
-    background-color: #D3D3D3;
-}
-
-.debug .last_section_info{
-    background-color: #228B22;
-}
-
-.debug footer{
-    background-color: #23272A;
-}
-
-
-.debug #social{
-    background-color: #F08080;
-}
-
-.debug .generic_section_footer{
-    background-color: #20B2AA;
-}
-.debug .footer_bottom .container_div_footer{
-    background-color: #7FFFD4;
-}
-
-.debug .logo_footer{
-    background-color: #FFB6C1;
-}
-
-.debug .bttn_footer{
-    background-color: #FFB6C1;
-}
-
-/*  end DEBUG settings*/
-
 
 .white{
     color: white;
@@ -336,4 +261,29 @@ i {
 hr{
     border: 1px solid #7289DA;
     width: 70%;
+}
+
+
+
+/* HOVER */
+.bttn:hover{
+    background-color: #6c6c6cc3;
+}
+
+a:hover{
+    color: rgba(105, 165, 255, 0.803);
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+.fa-instagram:hover{
+    
+    color: #F50185;
+}
+.fa-square-facebook:hover{
+    color: #4867AA;
+}
+.fa-youtube:hover{
+    color: #FA0001;
 }
