@@ -9,7 +9,7 @@ main{
 }
 
 footer{
-    
+    background-color: #23272A;
 }
 
 
@@ -94,12 +94,16 @@ footer{
 }
 
 .black{
-    
     color: #23272A;
+}
+
+.violet{
+    color: #7289DA;
 }
 
 h1{
     font-size: 45px;
+    margin: 0;
 }
 
 p{
@@ -259,6 +263,19 @@ section .section_desc{
     width: calc(70%/6 *2);
 }
 
+
+#social img{
+    height: 18px;
+}
+
+.languages{
+    margin: 15px 0;   
+}
+
+.languages span::before{
+    content: "";
+}
+
 .generic_section_footer{
     height: 90%;
     width: calc(70%/6);
@@ -284,6 +301,12 @@ section .section_desc{
     padding: 10px 20px;
 }
 
+i {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
 .bttn_footer{
     padding: 10px 20px;
 }
@@ -295,4 +318,18 @@ section .section_desc{
 
 .wave_reverse{
     transform: rotate(180deg);
+}
+
+.ul_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul_container li{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.ul_container li:first-child a{
+    color: #7289DA;
 }
