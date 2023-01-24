@@ -279,7 +279,6 @@ section .section_desc{
 .generic_section_footer{
     height: 90%;
     width: calc(70%/6);
-    border: 2px white dotted;
 }
 
 .footer_bottom{
