@@ -144,6 +144,13 @@ a{
     margin-left: 8px; 
 }
 
+.dwnl_bttn_section{
+    font-size: 20px;
+    color: white;
+    background-color: #7289DA;
+    margin: 20px 0 30px;
+}
+
 .header_top{
     height: 70px;
     display: flex;
@@ -224,13 +231,20 @@ section .section_desc{
 
 
 .last_section{
-    height: 800px;
     background-color: #F6F6F6;
+    text-align: center;
 }
 
 .last_section_info{
-    height: 85%;
     width: 70%;
+}
+
+.last_section_info img{
+    width: 100%;
+}
+
+.last_section_info p{
+    padding: 0 25px;
 }
 
 .footer_top{
