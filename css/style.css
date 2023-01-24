@@ -157,20 +157,17 @@ a{
 }
 
 .logo{
-    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 } 
 
 .navigation_links{
-    height: 60%;
     width: 34%;
 }
 
 
 .login{
-    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +184,6 @@ a{
 
 .header-info{
     width: 50%;
-    height: 60%;
 }
 
 .header-info h1{
@@ -204,7 +200,7 @@ a{
 }
 
 main section{
-    height: 600px;
+    padding: 60px 20px;
     margin: auto;
     display: flex;
     justify-content: center;
